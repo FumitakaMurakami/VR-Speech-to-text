@@ -30,6 +30,7 @@ https://aframe.io/docs/1.2.0/introduction/writing-a-component.html
       
       update: function() {
         this.el.addEventListener("click", async function(evt) {
+          //レコード開始
           const textbox = document.querySelector('#text-box');
           recorder && recorder.record();
           console.log("record")
